@@ -2,6 +2,13 @@
 
 CoinMarketCap (s)ymbol (2)to (l)ink converter.
 
+```javascript
+import coinmarketcap from 'coinmarketcap-s2l'
+
+coinmarketcap('BTC') // returns https://coinmarketcap.com/currencies/bitcoin/
+coinmarketcap('ADA') // returns https://coinmarketcap.com/currencies/cardano/
+```
+
 ## Installation
 
 ```bash
@@ -9,6 +16,8 @@ npm install coinmarketcap-s2l
 ```
 
 ## Usage
+
+Import in your app to generate link to coinmarketcap
 
 ```javascript
 import coinmarketcap from 'coinmarketcap-s2l'

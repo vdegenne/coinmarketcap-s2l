@@ -1,7 +1,11 @@
 {
   "name": "coinmarketcap-s2l",
   "description": "Symbol to CoinMarketCap Link converter",
-  "version": "1.0.0",
+  "author": "Valentin Degenne",
+  "keywords": [
+    "coinmarketcap", "url", "link", "crypto"
+  ],
+  "version": "1.0.1",
   "main": "main.js",
   "module": "main.js",
   "devDependencies": {
